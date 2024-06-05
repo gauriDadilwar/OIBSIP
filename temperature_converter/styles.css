@@ -1,0 +1,72 @@
+/* Apply a background image to the body */
+body {
+    background-image: url('images/flower.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the converter block */
+.converter {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Style the heading */
+.converter h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the labels */
+.converter label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Style the select dropdowns and input fields */
+.converter select,
+.converter input[type="number"],
+.converter input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+.converter button {
+    background-color: #52e993;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.converter button
+{
+background-color: #116924;
+}
+
+/* Style the result input to make it stand out */
+.converter input[type="text"] {
+background-color: #f0f0f0;
+color: #333;
+font-weight: bold;
+}
